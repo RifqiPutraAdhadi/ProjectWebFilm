@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.btn-prev {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-prev img {
+  width: 30px; 
+  height: auto;
+}
+
+.logo img {
+  width: 100px; 
+  height: auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+.movie-details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-poster {
+  width: 200px; 
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-description {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.movie-meta {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-meta li {
+  margin-bottom: 5px;
+}
+
+/* Synopsis Section */
+.synopsis {
+  margin-bottom: 20px;
+}
+
+.synopsis h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.synopsis p {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.video-player {
+  text-align: center;
+}
+
+.video-placeholder {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
