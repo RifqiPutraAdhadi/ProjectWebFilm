@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMovies</title>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="WMovies Logo"/>
+        </div>
+        <div class="search-bar">
+            <input id="searchBox" type="text" placeholder="Search movies...">
+        </div>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <div>
+                <a href="#">
+                    <img alt="black-banner" src="images/black-banner.png" />
+                </a>
+                <h1>Black Banner</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <a href="#">
+                    <img alt="Spider-Man-No-Way-Home" src="images/spiderman_no_way_home.webp" />
+                </a>
+                <h1>Spider-Man No Way Home</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <a href="#">
+                    <img alt="Image 3" src="https://raw.githubusercontent.com/Tikseo/DesainLogo/main/img/Slide3.JPG" />
+                </a>
+                <h1>Title 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <a href="#">
+                    <img alt="Image 4" src="https://raw.githubusercontent.com/Tikseo/DesainLogo/main/img/Slide3.JPG" />
+                </a>
+                <h1>Title 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <section class="recommendation">
+        <h3>Recommendations</h3>
+        <div id="moviesGrid" class="movies-grid">
+            <div class="movie-card">
+                <a href="john_wick.html"><img src="images/John wick.jpg" alt="John Wick"><p>John Wick</p></a>
+            </div>
+            <div class="movie-card">
+                <a href="the_falcon.html"><img src="images/the-falcon.webp" alt="The Falcon"><p>The Falcon</p></a>
+            </div>
+            <div class="movie-card">
+                <a href="#"><img src="images/transformer.jpg" alt="Transformer"><p>Transformer - The Last Knight</p></a>
+            </div>
+            <div class="movie-card">
+                <a href="#"><img src="images/captain-marvel.png" alt="Captain Marvel"><p>Captain Marvel</p></a>
+            </div>
+            <div class="movie-card">
+                <a href="#"><img src="images/black-panther.jpg" alt="Black Panther"><p>Black Panther</p></a>
+            </div>
+            <div class="movie-card">
+                <a href="#"><img src="images/spiderman.jpg" alt="Spider-Man"><p>Spider-Man: No Way Home</p></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WMovies. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 2500,
+                dots: true
+            });
+        });
+    </script>
+</body>
+</html>
